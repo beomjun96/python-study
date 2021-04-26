@@ -3,5 +3,12 @@
 # 출력 예: ABCDEFGHIJ
 
 str_list = input("입력:").split()
+string = ""
 
-print("".join(str_list))
+# print("".join(str_list))
+
+for x in str_list:
+    string = string + x
+
+
+print(string)
