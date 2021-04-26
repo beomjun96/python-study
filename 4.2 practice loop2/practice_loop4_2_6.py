@@ -11,7 +11,7 @@ index = 0
 count = 0
 for x in base:
     if x == word:
-        print(index)
+        print(index, end=" ")
         count =+ 1
     index +=1
 
