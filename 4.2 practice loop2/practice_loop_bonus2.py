@@ -10,7 +10,6 @@ print(ord("A"))   # A 아스키코드 65
 
 askcode1 = 65
 askcode = 65
-a_askcode = 65
 count = 0
 
 num = int(input("정수를 입력하시오:"))
@@ -33,6 +32,6 @@ for i in range(1, num+1):
     num_count = num-1
     count += 1           
     askcode += 1
-    a_askcode = askcode
+
     
     print()
