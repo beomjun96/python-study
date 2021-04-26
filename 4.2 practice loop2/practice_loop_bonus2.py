@@ -8,12 +8,31 @@
 
 print(ord("A"))   # A 아스키코드 65
 
+askcode1 = 65
 askcode = 65
+a_askcode = 65
+count = 0
+
 num = int(input("정수를 입력하시오:"))
+num_count = num-1
+
 
 for i in range(1, num+1):
     print(' '*(num-i),end='')
-    for j in range(1,i+1):
-        print(chr(askcode),end='')
-        askcode += 1
+
+    # 첫번째 영어
+    print(chr(askcode),end='')
+    fill_askcode = askcode + num_count
+    # 첫번째 영어 이후 채우기
+    for j in range(0,count):
+        print(chr(fill_askcode),end="")
+        num_count -= 1
+        fill_askcode = fill_askcode + num_count
+        
+
+    num_count = num-1
+    count += 1           
+    askcode += 1
+    a_askcode = askcode
+    
     print()
