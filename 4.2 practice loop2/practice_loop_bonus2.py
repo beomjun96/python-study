@@ -8,7 +8,6 @@
 
 print(ord("A"))   # A 아스키코드 65
 
-askcode1 = 65
 askcode = 65
 count = 0
 
