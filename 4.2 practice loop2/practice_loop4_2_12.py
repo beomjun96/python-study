@@ -29,7 +29,7 @@ if len(key) == 26:
             print("소문자로만 입력해주세요.")
             break
     for i in range(0,string_len):
-        if string[i].isupper==True:                 #여기가 문제인거 같음
+        if string[i].isupper()==True:                 # isupper에 괄호를 안쳤었음....
             word=string[i].lower()
             if word in alph:
                 num= alph.find(word)
