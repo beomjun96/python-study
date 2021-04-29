@@ -12,7 +12,7 @@ user_num = []
 com_num = []
 
 for i in range(0,3):
-    com_num.append(random.randint(0,9))                             # set을 쓰던, for로 len == 3 이 되던 해서 중복성 빼야함.
+    com_num.append(random.randint(0,9))                             # set을 쓰던, for로 len == 3 이 되던 해서 중복성 빼야함. 주말에 
 
 
 while out <= 999:
