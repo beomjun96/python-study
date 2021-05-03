@@ -11,3 +11,6 @@ num = int(input("정수를 입력하시오:"))
 
 for line in range(1,num+1):
     print(" "*(num-line) + "*"*line)
+
+    
+    # .rjust()    .ljust()  오른쪽, 왼쪽 정렬함수. 
