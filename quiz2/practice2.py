@@ -39,8 +39,6 @@ class Temporary(Employee):
     def __str__(self):
         return "이름:{}, 나이:{}, 월급:{}".format(self.irum, self.nai, self.ilsu * self.ildang)
 
-    def isaaa(a,b):
-        return a >= b
 
 
 t=Temporary("홍길동", 25, 20, 15000)
@@ -50,5 +48,3 @@ u=Salesman("손오공", 29, 1200000, 5000000, 0.25)
 print(t)
 print(s)
 print(u)
-
-print(Temporary.isaaa(3,5))
