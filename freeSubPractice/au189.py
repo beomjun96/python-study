@@ -1,6 +1,6 @@
 # http://toglobalmate.com/contents/pop_test.htm 참고
 
-print("호주독립기술이민자격 점수체크표")
+print("2020 호주독립기술이민자격 점수체크표")
 
 sum = 0
 
